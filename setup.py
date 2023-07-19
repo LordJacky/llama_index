@@ -13,7 +13,6 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 install_requires = [
-    "tiktoken",
     "dataclasses_json",
     "langchain>=0.0.218",
     "sqlalchemy>=2.0.15",
